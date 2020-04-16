@@ -6,15 +6,26 @@
     background-size: cover;
     background-position:center;
     height: 300px;
+  
+    
+}
+.header .container{
+
+     height: 300px;
+    display: flex;
 
 }
 
+.header h1{
+    color: #fff;
+  
+    
+}
 .overlay {
     position: absolute;
-    /*min-height: 100%;  del padre */
+    min-height: 300px;/*min-height: 100%;  del padre */
     min-width: 100%; /* del padre  (244, 244, 244, 0.79);*/
-    left: 0;
-    top: 0;
+  
     background-color: rgba(15, 58, 98, 0.79);
 }
 
