@@ -1,0 +1,14 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex{
+    Display: flex;
+    flex: start;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.card img{
+    height: 280px;
+}    
