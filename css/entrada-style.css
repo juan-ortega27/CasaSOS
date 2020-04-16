@@ -1,4 +1,9 @@
 
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #444647;
+
+}
 .header{
     width: 100%;
     background-image: url('../img/header-blog.jpg');
@@ -6,48 +11,78 @@
     background-size: cover;
     background-position:center;
     height: 300px;
-  
     
 }
 .header .container{
 
-     height: 300px;
+    height: 300px;
     display: flex;
+    align-items: center;
 
 }
 
 .header h1{
     color: #fff;
-  
     
 }
 .overlay {
     position: absolute;
     min-height: 300px;/*min-height: 100%;  del padre */
     min-width: 100%; /* del padre  (244, 244, 244, 0.79);*/
-  
     background-color: rgba(15, 58, 98, 0.79);
 }
 
 .entrada-img{
     position: absolute;
-    top: 40%;
-    margin: center center;
-   
+
+}
+
+.row p.link{
+    color: #F36448;
 }
 
 
 .expert{
     background-color: #E1EDF7;
-    margin-left: 3rem;
+    /*margin-left: 3rem;*/
     padding: 2rem;
 }
 
 .expert img{
    
     border-radius: 50%;
-    padding: 2rem;
+   
     align-items: center;
   
 
+}
+
+.entrada-text h2{
+    color: #0F3A62;
+    margin-bottom: 2rem;
+}
+.entrada-text h3{
+    color: #797B7C;
+    font-size: 24px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.quote{
+    color: #797B7C;
+    font-family: serif;
+    font-weight: bold;
+    font-stretch: expanded;
+    padding: 3rem;
+
+}
+
+.footer{
+    background-color: #0F3A62;
+    color: #fff;
+    width: 100%;
+    margin-top: 4rem;
+    position: relative;
+    color: #fff;
+    padding: 1rem;
 }
