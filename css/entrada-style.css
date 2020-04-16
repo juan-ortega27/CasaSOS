@@ -1,0 +1,42 @@
+
+.header{
+    width: 100%;
+    background-image: url('../img/header-blog.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+    height: 300px;
+
+}
+
+.overlay {
+    position: absolute;
+    /*min-height: 100%;  del padre */
+    min-width: 100%; /* del padre  (244, 244, 244, 0.79);*/
+    left: 0;
+    top: 0;
+    background-color: rgba(15, 58, 98, 0.79);
+}
+
+.entrada-img{
+    position: absolute;
+    top: 40%;
+    margin: center center;
+   
+}
+
+
+.expert{
+    background-color: #E1EDF7;
+    margin-left: 3rem;
+    padding: 2rem;
+}
+
+.expert img{
+   
+    border-radius: 50%;
+    padding: 2rem;
+    align-items: center;
+  
+
+}
