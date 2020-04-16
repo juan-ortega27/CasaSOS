@@ -1,0 +1,37 @@
+html,body{
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    background-image: url("../imagenes/violencia_principal2.jfif"); /*dos puntos para salir de carpeta*/
+    background-attachment: fixed; /*imagen fija en el header, cuando se haga scroll no se mueva*/
+    background-size: cover; /*que el backgron cubra todo el header*/
+    background-position: center; /*centre la imagen*/
+    height: 60%;
+
+}
+    .overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgb(244, 244, 2444, 0.45); /*overlay difunima la imagen*/
+}
+.description{
+    position: absolute;
+    top: 10%;
+    padding: 2rem;
+}
+.description button{
+    background-color: rgba(248, 217, 42, 0.986);
+    color: black;
+}
+
+.description p{
+    color: rgb(43, 42, 42);
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+}
