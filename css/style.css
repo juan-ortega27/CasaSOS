@@ -52,13 +52,13 @@
         color: black;
     }
     .asesoria{
-        color: navy;
-        font-weight: bold;
+        color: white;
+  
     }
     
     .asesoria2{
-        color: navy;
-        font-weight: bold;
+        color: white;
+
     }
     
     .busqueda{
@@ -66,11 +66,18 @@
     }
     
     .cards{
-        margin: 5rem;    
+        margin: 5rem;
+        text-align: justify;   
+
     }
 
     .cards img{
         height: 280px;
+    }
+
+    .cards a{
+        display: flex;
+        justify-content: center;
     }
     .btn-primary{
         background-color: #F36448;
