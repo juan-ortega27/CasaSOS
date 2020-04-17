@@ -2,10 +2,23 @@ body{
     font-family: Open Sans, sans-serif;
 }
 
-.h2{
-    font: #0F3A62
+h2{
+    color: #0F3A62
 }
 
 .formulario{
 margin-bottom: 3rem;
+}
+
+.btn-secondary{
+    background-color: #F36448;
+    border: none;
+}
+.footer{
+    background-color: #0F3A62;
+    color: #fff;
+    width: 100%;
+    margin-top: 4rem;
+    position: relative;
+    padding: 1rem;
 }
