@@ -11,7 +11,14 @@ body{
 }
 .card img{
     height: 280px;
-}    
+}  
+.card{
+    text-align: justify;
+}  
+.cards a{
+    display: flex;
+    justify-content: center;
+}
 .footer{
     background-color: #0F3A62;
     color: white;
