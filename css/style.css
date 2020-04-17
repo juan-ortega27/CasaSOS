@@ -66,14 +66,28 @@
     }
     
     .cards{
-        margin: 5rem;
-        
-        
+        margin: 5rem;    
     }
-    
+
+    .cards img{
+        height: 280px;
+    }
+    .btn-primary{
+        background-color: #F36448;
+        border: none;
+    }
+
+    .btn-primary:hover{
+        background-color: grey;
+        border: none;
+    }
+
     .cards h2{
         margin: 3rem;
         text-align: center;
         color: orangered;
     }
     
+    #busqueda .btn-secondary{
+        
+    }
