@@ -1,8 +1,79 @@
-/* parte donde haremos un breakpoint 
-@media(max-width:470px){ 
-    .ingresar{
-        background-color: none;
-        color:"blue"
+    body{
+        font-family: 'Open Sans', sans-serif;
+        color: #444647;
+    }
+    
+
+    .footer{
+        background-color: #0F3A62;
+        color: #fff;
+        width: 100%;
+        margin-top: 4rem;
+        position: relative;
+        padding: 1rem;
     }
 
-    */
+    .btn-secondary{
+        background-color: #F36448;
+        border: none;
+    }
+
+    .float{
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:40px;
+        right:40px;
+        background-color:#F36448;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        box-shadow: 2px 2px 3px #999;
+    }
+    
+    .my-float{
+        margin-top:22px;
+    }
+    .my-float a:hover{
+        color: #0F3A62;
+    }
+
+    body{
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    * .carousel-inner img {
+        width: 100%;
+        max-height: 460px;
+        background-color: rgb(244, 244, 2444, 1.50);
+    }
+    
+    .unete{
+        color: black;
+    }
+    .asesoria{
+        color: navy;
+        font-weight: bold;
+    }
+    
+    .asesoria2{
+        color: navy;
+        font-weight: bold;
+    }
+    
+    .busqueda{
+        margin: 4rem;
+    }
+    
+    .cards{
+        margin: 5rem;
+        
+        
+    }
+    
+    .cards h2{
+        margin: 3rem;
+        text-align: center;
+        color: orangered;
+    }
+    
