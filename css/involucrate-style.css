@@ -12,3 +12,34 @@ body{
 .card img{
     height: 280px;
 }    
+.footer{
+    background-color: #0F3A62;
+    color: white;
+    margin-top: 4rem; 
+    padding: 1rem;
+}
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#F36448;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    box-shadow: 2px 2px 3px #999;
+}
+.my-float{
+    margin-top:22px;
+}
+.my-float a:hover{
+    color: #0F3A62;
+}
+.btn-primary{
+    background-color: #F36448;
+    border: none;
+}
+#involucrate{
+    color: #0f3a62;
+}
