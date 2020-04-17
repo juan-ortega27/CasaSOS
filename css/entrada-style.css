@@ -63,9 +63,11 @@ a:hover{
 .expert img{
     border-radius: 50%;
     display: flex;
-    align-items: center;
-  
-
+    justify-content: center;
+       
+}
+.expert h4,h5{
+    color: #0F3A62;
 }
 
 .entrada-text h2{
