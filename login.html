@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/login-style.css">
     <title>CasaSOS</title>
 </head>
 <body>
-
+   
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html"><img src="" alt=""> CasaSOS </a>
+        <a class="navbar-brand" href="index.html"><img src="./img/logo.png" alt="Recibe ayuda en caso de violencia en casa"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto d-flex align-items-left align-items-lg-center">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Blog<span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Blog</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="involucrate.html">Involúcrate</a>
@@ -27,10 +27,12 @@
               <a class="nav-link" href="login.html"> 
                   <button type="button" class="btn btn-secondary">Ingresa</button>
               </a>
-          </li>     
+            </li>     
           </ul>
         </div>
+        
       </nav>
+
       <!-- <header class="header">
         <div class="overlay"></div>
             <div class="container">
@@ -41,7 +43,7 @@
             </div>
     </header> -->
     <section class="contact-form">
-        <div class="container">
+        <div class="container mt-4">
             <form action="">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-12">
@@ -62,7 +64,7 @@
                             <label for="exampleInputPassword1">Password</label>
                             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                         </div>
-                        <button type="button" class="btn btn-secondary">Regístrate</button>
+                        
                     </div>
                 </div>
             </form>
@@ -70,11 +72,11 @@
     </section>
     
     <section class="contact-form">
-        <div class="container">
+        <div class="container mt-4">
             <form action="">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-12 formulario">
-                        <h2>Si es una emergencia:</h2>
+                        <h2>Contacto de emergencia:</h2>
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-12 right">
                         <div class="form-group">
@@ -86,7 +88,8 @@
                             <label for="exampleInputEmail1">Teléfono</label>
                             <input type="email" class="form-control" id="exampleInputTelefono" aria-describedby="Teléfono" placeholder="Teléfono">
                         </div>
-                        <button type="button" class="btn btn-outline-secondary btn-lg">AYUDA</button>   
+                        <a class="nav-link" href="index.html">
+                        <button type="button" class="btn btn-secondary">Registro</button></a>  
                     </div>
 
                 </div>
@@ -94,7 +97,10 @@
         </div>
     </section>
     
-    
+    <section class="footer text-center">
+        Derechos Reservados &copy; CasaSOS 2020 
+     
+    </section>
     
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
