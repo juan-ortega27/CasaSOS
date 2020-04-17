@@ -40,6 +40,13 @@ body{
     background-color: #F36448;
     border: none;
 }
+.btn-primary:hover{
+    background-color: grey;
+}
+.btn-secondary{
+    background-color: #F36448;
+    border: none;
+}
 #involucrate{
     color: #0f3a62;
 }
